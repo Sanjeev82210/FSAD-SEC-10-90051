@@ -1,0 +1,7 @@
+{
+  "java.import.maven.enabled": true,
+  "java.project.sourcePaths": [
+    "Week-7/src/main/java",
+    "Week-9/src/main/java"
+  ]
+}

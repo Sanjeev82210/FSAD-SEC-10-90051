@@ -1,0 +1,4 @@
+com\klh\repository\ProductRepository.class
+com\klh\ProductCrudJpaApplication.class
+com\klh\model\Product.class
+com\klh\controller\ProductController.class

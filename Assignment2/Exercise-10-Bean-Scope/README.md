@@ -1,0 +1,2 @@
+Exercise-10 Result:
+In this experiment, the scope of the RegistrationService bean was analyzed. Initially, the bean was created with the default singleton scope, and it was observed that only one instance of the service was created even though its method was invoked multiple times. The scope was then changed to prototype using the @Scope("prototype") annotation. The creation of the service object was observed through console logs, demonstrating the difference in object creation behavior based on bean scope configuration in Spring.

@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="courseRepository"
+          class="com.example.co2.repository.CourseRepository" />
+
+    <bean id="registrationService"
+          class="com.example.co2.service.RegistrationService">
+        <constructor-arg ref="courseRepository" />
+    </bean>
+
+</beans>

@@ -1,0 +1,4 @@
+com\klh\SpringCrudApplication.class
+com\klh\model\Course.class
+com\klh\controller\CourseController.class
+com\klh\service\CourseService.class

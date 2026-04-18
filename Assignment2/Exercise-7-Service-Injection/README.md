@@ -1,0 +1,2 @@
+Exercise-7 Result:
+The RegistrationService was created and registered as a Spring service bean. The service was successfully injected into the RegistrationController using Spring’s dependency injection mechanism. During request processing, the controller invoked the service method to perform the registration operation. The correct execution of service injection and method invocation was verified through browser output and corresponding console log messages.
